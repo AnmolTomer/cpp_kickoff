@@ -1,6 +1,6 @@
 // 01-C++ Introduction _ C ++ Tutorial
 
-/* C++ is a general purpose, high-leve, compiler based and object oriented programming language.
+/* C++ is a general purpose, high-level, compiler based and object oriented programming language.
 
 General purpose : We are able to design different kinds of software, also called multiple purpose programming language.
 
@@ -22,7 +22,17 @@ E.g.
 (vii) Protocols : C++ used extensively for this. Fact : Around 90% of telecom protocols are designed with C++.
     e.g. HTTP, FTP, Bluetooth transfer protocol.
 
+As it is evident from the examples above, we can tell the reason why C++ is called general purpose or multi purpose programming language.
 
+C++ is called high level programming language.
 
+Before discussing HLL, let's understand the difference between a program, software and language.
 
+Software : Collection of programs is known as software. Broadly has 2 categories : System Software and Application Software
+e.g. Android, Windows, Unix, Linux are examples of System Software.
+VLC Media Player, Tally, MS Office are examples of Application Softwares. These are designed to accomplish a specific task.
+
+Program : A set of instructions is called program.
+
+Next : 02-Object Oriented Programming Part 1
 */
