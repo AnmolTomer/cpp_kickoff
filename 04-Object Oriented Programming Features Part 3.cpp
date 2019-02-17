@@ -53,11 +53,11 @@ using namespace std;
 class stu
 {
     private:  // Access specifier
-        long long int id;
+        long long int id; // data members
         char name[20];
         float fee;
-    public:
-        void get() // Private data member id and name[20] being accessed through public member function get().
+    public: // Access specifier
+        void get() // Private data member id ,name[20] and fee being accessed through public member function get().
         {
             cout << "Enter name of the student  : " << '\n';
             cin >> name;
