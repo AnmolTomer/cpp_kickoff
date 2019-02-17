@@ -58,7 +58,7 @@ class stu
         float fee;
     public: // Access specifier
         void get() // Private data member id ,name[20] and fee being accessed through public member function get().
-        {
+        { // Inline function : As definition of the function completed within the class. We can define member function outside the class too.
             cout << "Enter name of the student  : " << '\n';
             cin >> name;
             cout << "Enter ID of the student : " << '\n';
@@ -71,9 +71,14 @@ class stu
 
         }
 };
+// To define outisde the class member function we do so in the following manner :
+/*
+Make public: void get(); and close the class.
+Whenever definition is outside the class then syntax is class_name::function_name() Here, :: is called a scope operator.
+*/
 int main()
 {
-    stu test;  // test being the object or variable of type class.
+    stu test;  // test being the object or variable of type class. Declaration done using (class_name object ;).
     test.get(); // Object name being used to access the class function or data member . We can access only those which are public.
     return 0;
 }
