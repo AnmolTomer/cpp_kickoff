@@ -89,8 +89,8 @@ int main()
     cout<<"\nConversion of octal number 101 to decimal using setiosflags is : "<<setiosflags(ios::dec) << 0101<<endl;
     cout<<"\nConversion of Hexadecimal number 41 to decimal using setiosflags is : "<<setiosflags(ios::dec) << 0x41<<endl;
 
-    cout<<setiosflags(ios::pos)<<100; // Shows + symbol in front of 100. Works only with positive numbers
-    cout<<setiosflags(ios::pos)<<-100; // Won't show + sign here as the number is -ve.
+    cout<<"Showpos for positive number : "<<setiosflags(ios::showpos)<<100<<endl; // Shows + symbol in front of 100. Works only with positive numbers
+    cout<<"Showpos for negative number : "<<setiosflags(ios::showpos)<<-100<<endl; // Won't show + sign here as the number is -ve.
 
 return 0;
 
