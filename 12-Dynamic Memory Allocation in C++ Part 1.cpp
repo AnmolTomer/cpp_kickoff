@@ -56,5 +56,6 @@ int main()
         cout<<"\t"<<a[i];
 
     }
+    delete p; // To release the memory. P holds the address in memory where array starts, or where array[0] is present.
     return 0;
 }
